@@ -40,8 +40,8 @@ header{
 
 
 .container-central{
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
 }
 
 footer{
