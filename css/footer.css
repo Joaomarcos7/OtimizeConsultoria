@@ -1,0 +1,70 @@
+.footer-container{
+    
+    height:40%;
+    max-width:1200px;
+    text-align:center;
+}
+
+.footer-container .btn{
+display:inline-block;
+width:50px;
+height:50px;
+background-color: #000080 ;
+margin:10px;
+border-radius:60%;
+overflow:hidden;
+position:relative;
+color:#42d2ff;
+border:none;
+}
+
+.footer-container .btn i{
+    position:relative;
+    z-index:5;
+    font-size:1.6em;
+    transition:0.3s ease-in-out;
+    padding-right:3px;
+    top:20%;
+    left:10%
+}
+
+.footer-container .btn::before{
+    content:'';
+    position:absolute;
+    width:120%;
+    height:120%;
+    background-color:#00c6ff;
+    transform:rotate (45deg);
+    left:-110%;
+    top:90%;
+}
+
+.footer-container .btn:hover i{
+color:#fff;
+transform:scale(1.3);
+}
+
+.footer-container .btn:hover::before{
+    animation: onHover 0.7s 1;
+    left:-10%;
+    top:-10%;
+}
+
+@keyframes onHover {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+span{
+    font-size:0.8em;
+}

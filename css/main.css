@@ -1,0 +1,56 @@
+main h3,h5{
+    font-size:2em;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 3px;
+}
+
+
+ main section{
+    font-size:0.8em;
+    margin-bottom:20px;
+    margin-left:13px;
+}
+
+
+ section .cards{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+  }
+
+.CARDS{
+    margin:15px;
+    width:340px;
+    height:340px;
+    background-color:#000080;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ main .section{
+    background-color:#B0C4DE;
+    
+}
+
+
+
+.imgs{
+margin:25px;
+}
+
+
+.size{
+width:210px;
+height:210px;
+}
+
+.img-clientes{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
