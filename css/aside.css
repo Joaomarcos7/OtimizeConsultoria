@@ -1,0 +1,103 @@
+aside{
+    background-color:#fff;
+    font-size:0.7em;
+    max-width: 320px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.size-aside{
+    width:240px;
+    height:170px;
+    margin-bottom:10px;
+    transform:scale(1);
+    transition: scale 0.5
+}
+
+.size-aside:hover{
+    transform:scale(1.1)
+}
+
+.recentes{
+    margin-top:15px;
+    margin-bottom:20px;
+    
+}
+
+aside h5{
+    text-align:left;
+    font-weight:bold;
+}
+
+aside summary:hover{
+    background-color:#F0F8FF;
+    width:100%;
+}
+
+aside h3{
+    font-size:1.4em;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-bottom: 25px;
+}
+
+details{
+    margin-bottom:25px;
+}
+aside details summary {
+    font-size:1.7em;
+    font-weight:bold;
+}
+
+aside details ul{
+    margin-top:15px;
+    
+}
+
+aside details ul li{
+    font-size:1.1em;
+    border-bottom:0.8px solid black;
+    padding:10px 10px 10px 10px;
+}
+
+aside details ul li:hover{
+   background-color:#F0F8FF;
+}
+
+
+aside section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+aside section button{
+    padding:7px 16px 7px 16px;
+    color:white;
+    background-color: black;
+    margin-top:8px;
+    border-radius: 10%;
+}
+
+aside section button:hover{
+    color:black;
+    background-color:	#4169E1;
+}
+
+aside section textarea{
+    border:2px solid black;
+    margin-top:8px;
+    padding-left: 10px;
+}
+
+aside section textarea:hover,textarea:focus{
+    border:2px solid #4169E1;
+    outline-color: #4169E1;
+}

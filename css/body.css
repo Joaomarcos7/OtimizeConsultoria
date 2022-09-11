@@ -42,6 +42,8 @@ header{
 .container-central{
     display: flex;
     flex-direction: row;
+    justify-content:space-around;
+    background-color:white;
 }
 
 footer{
@@ -51,12 +53,13 @@ footer{
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
+    width:100%;
 }
 
-aside{
-    background-color:#fff;
-}
+
 main{
     margin-top:1rem;
-    background-color: transparent;
+    background-color:transparent;
+    width:70vw;
 }
+
