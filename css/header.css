@@ -1,12 +1,13 @@
 .logo{
     width: 300px;
     height:inherit;
-    position: relative;
-    top: 25px;
+    display: flex;
+    align-items: center;
 }
     
 .logo #logo{
     width:160px;
+   
 }
 
 .search-container{
