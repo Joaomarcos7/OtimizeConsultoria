@@ -11,12 +11,11 @@
 }
 
 .search-container{
-  padding: 17px;
-  border-radius:60px;
+  padding: 19px;
+  border-radius:90px;
   cursor:pointer;
   display:flex;
   justify-content: center;
-  margin:0;
   align-items: center;
 }
 .search-container input{
@@ -38,12 +37,13 @@
   align-items:center;
   text-decoration:none;
   border:none;
-  padding:8px;
+  padding: 8px;
   height:44px;
   float:right;
   color:white;
   transition:0.4s ease;
-  background-color:	#000080;
+  background-color:#000080;
+  font-size:1em;
 }
 
 
@@ -51,12 +51,12 @@
 .search-container:hover> input, input:focus{
     width:270px;
     margin:0px 0px;
-    border:0.3px solid #00008B;
+    border:0.3px solid black;
     padding:12px;
     height:45px;
 }
  .search-container:hover>button, button:focus{
-    background-color:#6495ED;
+    background-color:transparent;
  }
 
 
@@ -71,20 +71,18 @@ nav{
     width:400px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
    
 }
+
 #nav{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    padding-left: 2rem;
-    
+    margin:0;
 }
 #nav li{
     padding-left:2rem;
-    padding-top:1rem ;
     
 }
 

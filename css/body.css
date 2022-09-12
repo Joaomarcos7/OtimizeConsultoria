@@ -42,8 +42,8 @@ header{
 .container-central{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    background-color:white;
+    justify-content:space-between;
+    background-color:	#F5F5F5;
 }
 
 footer{
@@ -59,7 +59,7 @@ footer{
 
 main{
     margin-top:1rem;
-    background-color:transparent;
+    background-color:	#F5F5F5;
     width:70vw;
 }
 

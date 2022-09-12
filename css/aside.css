@@ -1,5 +1,5 @@
 aside{
-    background-color:#fff;
+    background-color:#Fafafa;
     font-size:0.7em;
     max-width: 320px;
    display:flex;
@@ -88,7 +88,7 @@ aside section button{
 
 aside section button:hover{
     color:black;
-    background-color:	#4169E1;
+    background-color:#4169E1;
 }
 
 aside section textarea{
