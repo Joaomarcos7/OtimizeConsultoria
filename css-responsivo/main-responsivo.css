@@ -1,0 +1,24 @@
+/* Mobile-main: min-width:; max-width:600px */
+
+@media screen and (max-width: 600px) {
+    aside{
+        display: none;
+    }
+    
+    div.container-central{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Tablet-main: min-width: 600px; max-width: 765px;*/
+@media screen and (max-width:765px) {
+    aside{
+        display: none;
+    }
+
+    div.container-central{
+        display: flex;
+        justify-content: center;
+    }
+}

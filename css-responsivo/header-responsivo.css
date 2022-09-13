@@ -1,0 +1,20 @@
+/* Mobile-header: min-width:; max-width:600px*/
+
+@media screen and (max-width: 600px) {
+    #nav{
+        display: none;
+    }
+
+    header{
+        justify-content: space-around;
+    }
+
+    .search-container{
+        order: 1;
+    }
+
+    i.fa-bars{
+        display: inline;
+    }
+
+}

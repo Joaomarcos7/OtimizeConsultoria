@@ -4,4 +4,6 @@
 @import url('css/aside.css');
 @import url('css/footer.css');
 @import url('css/quemsomos.css');
-@import url('css/contatos.css')
+@import url('css/contatos.css');
+@import url('css-responsivo/header-responsivo.css');
+@import url('css-responsivo/main-responsivo.css');
