@@ -1,24 +1,94 @@
 /* Mobile-main: min-width:; max-width:600px */
 
 @media screen and (max-width: 600px) {
-    aside{
-        display: none;
-    }
+
     
     div.container-central{
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
 /* Tablet-main: min-width: 600px; max-width: 765px;*/
 @media screen and (max-width:765px) {
-    aside{
-        display: none;
-    }
+    
 
     div.container-central{
         display: flex;
         justify-content: center;
+        flex-direction:column;
+        align-items: center;
     }
+
+    main > h3{
+        color:#000080;
+        font-size:1.7em;
+      }
+
+      .section h5{
+        font-size: 2.1em;
+        font-weight:bold;
+          color:#000080;
+       }
+
+       .flip-card-back {
+        display:flex;
+        transform: rotateY(180deg);
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align:center;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,108,1) 0%, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 0%, rgba(29,66,161,1) 0%, rgba(6,40,162,1) 0%, rgba(9,17,127,1) 2%, rgba(16,34,139,1) 8%, rgba(15,38,142,1) 12%, rgba(15,40,143,1) 14%, rgba(5,102,183,1) 100%);
+           color:white;
+           line-height: 27px;
+           font-size:1em;
+      }
+      .flip-card-front{
+        font-size:0.9em;
+      }
+
+      #submit{
+        margin-bottom:10px;
+      }
+
+  .quemsomos p{
+    font-size: 1.2em;
+  }
+
+  main{
+    width:100%;
+    }
+}
+
+@media screen and (max-width:320px){
+
+  .flip-card-front{
+    font-size:0.7em;
+    height:94% !important;
+  }
+
+   .flip-card-back{
+      font-size:0.8em;
+    }
+    .quemsomos p{
+      font-size: 1em;
+   }
+  main{
+    width:100%;
+  }
+
+  .forms h2{
+    font-size:1em !important;
+    }
+
+}
+
+@media screen and (max-width:792px){
+
+.forms h2{
+  font-size:1.1em;
+}
+
 }

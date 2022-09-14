@@ -1,0 +1,9 @@
+.forms{
+display:flex;
+flex-direction:column;
+align-items: center;
+align-content:space-around;
+justify-content: space-around;
+font-size:1.3em;
+color: #000080
+}

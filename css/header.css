@@ -10,13 +10,14 @@
 }
 
 .search-container{
-  padding: 19px;
+  padding: 10px;
   border-radius:90px;
   cursor:pointer;
   display:flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .search-container input{
   color:black;
@@ -72,22 +73,21 @@ nav{
    
 }
 
-nav i.fa-bars{
-    display: none;
-}
+
 
 #nav{
     display:flex;
     flex-direction: row;
     align-items: center;
     margin:0;
+    padding:0;
 }
-#nav li{
-    padding-left:2rem;
-    
-}
+
 
 #nav li a{
     color:	#F8F8FF;
 }
  
+#nav li{
+    padding-left: 2rem;
+}

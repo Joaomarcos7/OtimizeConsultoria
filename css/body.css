@@ -42,12 +42,13 @@ header{
 .container-central{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     background-color:	#F5F5F5;
+    width:100%;
 }
 
-footer{
-    background-color: #000080;
+footer{ 
+    background-color:#000080;
     height:110px;
     display:flex;
     flex-direction:column;

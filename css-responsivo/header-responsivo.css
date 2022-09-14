@@ -1,20 +1,60 @@
 /* Mobile-header: min-width:; max-width:600px*/
 
-@media screen and (max-width: 600px) {
-    #nav{
-        display: none;
+@media screen and (max-width: 768px) {
+   
+
+
+.search-container input{
+    width:180px;
+    height:45px;
+    transition:0.8s ease
+}
+
+.search-container:hover > input,input:focus{
+    width:180px;
+    height:45px;
+}
+
+.search-container button{
+font-size:0.8em;
+}
+    header{
+        justify-content: space-around;
+      flex-direction: column;
+      height:280px;
+    }
+
+#nav li a .fa-solid fa-phone{
+    font-size:0.8em;
+}
+
+.logo{
+    height:100px;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 375px){
+    .search-container input{
+        width:180px;
+        height:40px;
+    }
+    .search-container:hover > input,input:focus{
+        width:180px;
+        height:40px;
     }
 
     header{
         justify-content: space-around;
     }
 
-    .search-container{
-        order: 1;
-    }
-
-    i.fa-bars{
-        display: inline;
-    }
+#nav li a {
+font-size:0.9em;
+}
 
 }

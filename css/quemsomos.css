@@ -1,2 +1,62 @@
+.quemsomos{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+}
 
+.quemsomos h1{
+color: #000080;
+font-size:2.6em;
+margin-top: 15px;
+}
+
+.quemsomos h1,p{
+    margin-bottom:25px;
+}
+
+.quemsomos >img{
+    margin-bottom:35px;
+}
+.quemsomos p{
+    font-size:1.4em;
+    padding:0px 35px 0px 35px
+}
+
+.membros{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:8px;
+    align-items:center;
+    width:220px;
+    height:220px;
+    color:#000080
+}
+
+
+.fotos{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.fotos img{
+    width:165px;
+    height:165px;
+    border-radius:50%;
+    border:1px solid #000080 ;
+    transform:scale(1);
+    transition: scale 0.4s 
+}
+
+.fotos img:hover{
+transform:scale(1.1)
+}
+
+
+.membros span{
+    font-size:1.2em;
+}
 
