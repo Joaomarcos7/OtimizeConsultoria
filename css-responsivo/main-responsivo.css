@@ -92,3 +92,26 @@
 }
 
 }
+
+@media screen and (min-width:2020px){
+
+  .imgs{
+    width:340px;
+    height:310px;
+  }
+}
+
+@media screen and (min-width:2260px){
+.imgs{
+  width:250px;
+  height:250px;
+}
+  
+
+@media screen and (min-width:2260px){
+  .flip-card{
+    width: 430px;
+    height: 340px;
+  }
+}
+}
