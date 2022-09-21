@@ -13,8 +13,7 @@
 
 /* Tablet-main: min-width: 600px; max-width: 765px;*/
 @media screen and (max-width:765px) {
-    
-
+  
     div.container-central{
         display: flex;
         justify-content: center;
@@ -96,21 +95,13 @@
 
 }
 
-@media screen and (min-width:2020px){
+@media screen and (min-width:1400px){
 
   .imgs{
-    width:340px;
-    height:220px;
+  width:120px;
+    height:110px;
   }
 }
-
-@media screen and (min-width:2260px){
-.imgs{
-  width:260px;
-  height:260px;
-}
-
-  
 
 @media screen and (min-width:2260px){
   .flip-card{
@@ -118,4 +109,4 @@
     height: 320px;
   }
 }
-}
+

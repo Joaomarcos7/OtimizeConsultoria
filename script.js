@@ -1,7 +1,7 @@
 function notif(){
   window.alert('Obrigado pelo Comentário!');
-  const comment=document.getElementsByTagName('textarea').value='';
-
+  const comment=document.getElementById('comment');
+   comment= comment.value('')
 }
 
 

@@ -43,7 +43,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    background-color:	#c1c1c1;
+    background-color:	#1C1C1C;
     width:100%;
 }
 
@@ -60,7 +60,7 @@ footer{
 
 main{
     margin-top:1rem;
-    background-color:#c1c1c1;
+    background-color:#1C1C1C;
     width:70vw;
 }
 
