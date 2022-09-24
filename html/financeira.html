@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" href="../imgs/aba-otimize.png">
+   <script src="https://kit.fontawesome.com/977ce15812.js" crossorigin="anonymous"></script>
+    <title>Gestão Financeira</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../imgs/Design sem nome (1).png" alt="logo" id="logo" >
+            </a>
+        </div>
+
+      
+        <div class="search-container">
+                 <label for="search"></label>
+                <input type="search" id="search" placeholder="Pesquise Aqui" onkeyup="filter()" value="">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        
+        
+        <nav>
+
+        <ul id="nav">
+                    <li><a href="https://otimizeconsultoriajr.com.br/blog-otimize/">Blog</a></li>
+                    <li><a href="../html/quemsomos.html">Quem Somos</a></li>
+                    <li><a href="../html/contato.html">Contatos <i class="fa-solid fa-phone"></i></a></li>
+                    
+        </ul>
+
+        </nav>
+    </header>
+
+    <!--<div class="js-search">
+          <ul id="ul">
+          <li><a href="https://otimizeconsultoriajr.com.br/apr-analise-preliminar-de-riscos-seguranca-na-empresa/"> APR: Análise Preliminar de Riscos e a segurança na sua empresa</a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/plano-de-acao-como-fazer-e-obter-sucesso-em-sua-aplicacao/">Plano de ação: Como fazer e obter sucesso em sua aplicação? </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/gestao-financeira-como-essa-ferramenta-pode-salvar-sua-empresa/">Gestão Financeira: Como essa ferramenta pode salvar sua empresa? </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/mapeamento-de-processos-o-que-e/">Mapeamento de Processos: O que é, e seus benefícios. </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/dicas-para-melhorar-o-ambiente-de-trabalho/">5 Dicas Para Mehorar o Ambiente de Trabalho</a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/como-a-era-digital-pode-aumentar-a-produtividade-da-sua-empresa/">Como a era digital pode aumentar a produtividade da sua empresa?</a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/bsc-como-afeta-minha-estrategia/">BSC: Como isso afeta minha estratégia </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/tudo-o-que-voce-precisa-saber-sobre-analise-de-riscos/">Tudo o que você precisa saber sobre análise de riscos </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/posicionament-de-mercado-estou-fazendo-certo/"> Posicionamento de Mercado: Estou Fazendo Bem? </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/ciclo-de-vida-do-produto/"> Ciclo de vida do produto – </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/gestao-estrategica-melhorando-empresas/"> A Gestão Estratégica Melhorando Empresas</a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/estrategias-de-posicionamento-de-mercado-tudo-o-que-voce-precisa-saber/"> Estratégias de posicionamento de Mercado: Tudo o que você precisa saber</a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/inovando-em-seu-modelo-de-negocios/">Inovando em seu modelo de negócios</a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/4-motivos-para-sua-empresa-ter-um-planejamento-estrategico/">4 motivos para sua empresa ter um planejamento estratégico </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/boas-praticas-para-gestao-do-fluxo-de-caixa/">Boas práticas para gestão do fluxo de caixa </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/mapeamento-de-processos/">Mapeamento de Processos </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/digitalizacao-empresarial/">Digitalização, seu futuro organizacional </a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/9-passos-para-um-delivery-de-sucesso/"> 9 passos para um delivery de sucesso</a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/tudo-que-voce-precisa-saber-sobre-gestao-de-estoque/"> Gestão de estoque</a></li>
+          <li><a href="https://otimizeconsultoriajr.com.br/os-sete-tipos-de-gestao-que-vao-mudar-sua-empresa/">7 tipos de gestão </a></li>
+          </ul>
+        </div> -->
+        <div class="container-central">
+
+            <main>
+                <section class="cards-page">
+                    <h2>Plano de negócios</h2>  
+                    <img src="" alt="">
+                    <p> 
+                    </p>
+                    <h4>Benefícios</h4>
+                    <ul style="list-style:circle">
+                        <li>Assertividade nas ações;</li>
+                        <li>Aumento da eficiência operacional;</li>
+                        <li>Planejamento a médio e longo prazo;
+                        </li>
+                        <li>Definição de metas e objetivos concretos;</li>
+                        <li>Quantificação do crescimento da empresa.</li>
+                    </ul>
+                   </section>
+            </main>
+            
+            
+                <aside>
+                    <h5> Posts Recentes:</h5>
+                    <div class="recentes">
+                        <div class="post1 posts">
+                           <a href="https://otimizeconsultoriajr.com.br/apr-analise-preliminar-de-riscos-seguranca-na-empresa/"> <img  src="../imgs/APR.png" alt="" class="size-aside"></a>
+                            <h3><a href="https://otimizeconsultoriajr.com.br/apr-analise-preliminar-de-riscos-seguranca-na-empresa/"> APR: Análise Preliminar de Riscos e a segurança na sua empresa</a></h3>
+                        </div>
+            
+                        <div class="post2 posts">
+                            <a href="https://otimizeconsultoriajr.com.br/gestao-financeira-como-essa-ferramenta-pode-salvar-sua-empresa/"><img  src="../imgs/gestao.jpg" alt="" class="size-aside"></a>
+                            <h3><a href="https://otimizeconsultoriajr.com.br/gestao-financeira-como-essa-ferramenta-pode-salvar-sua-empresa/"> Gestão Financeira: Como essa ferramenta pode salvar sua empresa? </a></h3>
+                        </div>
+            
+                        <div class="post3 posts">
+                        <a href="https://otimizeconsultoriajr.com.br/plano-de-acao-como-fazer-e-obter-sucesso-em-sua-aplicacao/"><img  src="../imgs/PLANO.png" alt="" class="size-aside"></a>
+                        <h3> <a href="https://otimizeconsultoriajr.com.br/plano-de-acao-como-fazer-e-obter-sucesso-em-sua-aplicacao/">  Plano de Ação: Como fazer e obter sucesso em sua aplicação?</a> </h3>
+                        </div>
+            
+                    </div>
+                    <details>
+                        <summary>  Todos nossos Posts </summary>
+                        <ul>
+                        <li><a href="https://otimizeconsultoriajr.com.br/apr-analise-preliminar-de-riscos-seguranca-na-empresa/"> APR: Análise Preliminar de Riscos e a segurança na sua empresa</a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/plano-de-acao-como-fazer-e-obter-sucesso-em-sua-aplicacao/">Plano de ação: Como fazer e obter sucesso em sua aplicação? </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/gestao-financeira-como-essa-ferramenta-pode-salvar-sua-empresa/">Gestão Financeira: Como essa ferramenta pode salvar sua empresa? </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/mapeamento-de-processos-o-que-e/">Mapeamento de Processos: O que é, e seus benefícios. </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/dicas-para-melhorar-o-ambiente-de-trabalho/">5 Dicas Para Mehorar o Ambiente de Trabalho</a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/como-a-era-digital-pode-aumentar-a-produtividade-da-sua-empresa/">Como a era digital pode aumentar a produtividade da sua empresa?</a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/bsc-como-afeta-minha-estrategia/">BSC: Como isso afeta minha estratégia </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/tudo-o-que-voce-precisa-saber-sobre-analise-de-riscos/">Tudo o que você precisa saber sobre análise de riscos </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/posicionament-de-mercado-estou-fazendo-certo/"> Posicionamento de Mercado: Estou Fazendo Bem? </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/ciclo-de-vida-do-produto/"> Ciclo de vida do produto – </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/gestao-estrategica-melhorando-empresas/"> A Gestão Estratégica Melhorando Empresas</a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/estrategias-de-posicionamento-de-mercado-tudo-o-que-voce-precisa-saber/"> Estratégias de posicionamento de Mercado: Tudo o que você precisa saber</a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/inovando-em-seu-modelo-de-negocios/">Inovando em seu modelo de negócios</a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/4-motivos-para-sua-empresa-ter-um-planejamento-estrategico/">4 motivos para sua empresa ter um planejamento estratégico </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/boas-praticas-para-gestao-do-fluxo-de-caixa/">Boas práticas para gestão do fluxo de caixa </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/mapeamento-de-processos/">Mapeamento de Processos </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/digitalizacao-empresarial/">Digitalização, seu futuro organizacional </a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/9-passos-para-um-delivery-de-sucesso/"> 9 passos para um delivery de sucesso</a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/tudo-que-voce-precisa-saber-sobre-gestao-de-estoque/"> Gestão de estoque</a></li>
+                        <li><a href="https://otimizeconsultoriajr.com.br/os-sete-tipos-de-gestao-que-vao-mudar-sua-empresa/">7 tipos de gestão </a></li>
+                        </ul>
+                    </details>
+            
+                     <section>
+                        <h5> <i class="fa-solid fa-comment" ></i> Comentários:</h5>
+                            <textarea required rows="7" cols="30" > </textarea>
+                            <button id="submit" onclick="notif()">Enviar</button>
+                     </section>
+            
+                </aside>
+        
+            </div> 
+        
+
+
+        <footer>
+            <div class="footer-container">
+                            <a href="https://www.facebook.com/otimizeufpb.ufpb" class="botao"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/otimizeconsultoria/" class="botao"><i class="fa-brands fa-instagram"></i> </a>
+                            <a href="https://www.linkedin.com/company/otimizeconsultoriapb/" class="botao"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=5583996296391" class="botao"><i class="fa-brands fa-whatsapp"></i> </a>
+                            <a href="" onclick="alert2()" class="botao"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="copyright">   <span style="font-style:italic">Copyright © 2022 - Otimize Consultoria </span></div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src=
+        "https://code.jquery.com/jquery-1.12.4.min.js">
+                </script>
+        <script src="script.js"></script>
+</body>
+</html>

@@ -6,6 +6,6 @@
 -JAVASCRIPT
 -BOOTSTRAP
 -GIT
-
+-JQuery
 
 **URL: otimizeconsultoria.netlify.app ** 

@@ -1,9 +1,20 @@
-function notif(){
-  window.alert('Obrigado pelo Comentário!');
-  const comment=document.getElementById('comment');
-   comment= comment.value('')
-}
+//function notif(){
+  //window.alert('Obrigado pelo Comentário!');
+  //var txt = $("#comment").val('');
+                //alert(txt);//
 
+//}
+$(document).ready(function () {
+            
+    //This function called when the button is clicked
+    $("#submit").click(function () {
+        
+        // val() method is used to get the values from 
+       // textarea and stored in txt variable
+        var txt = $("#comment").val('');
+        alert('Obrigado por seu comentário!');
+    });
+});
 
 function filter() {
   var input, filter, ul, li, a, i;
@@ -24,4 +35,8 @@ function filter() {
       }
 
   }
+}
+
+function alert2(){
+    window.alert('Entre em contato conosco!\nNosso Email é : falecomotimize@gmail.com');
 }
