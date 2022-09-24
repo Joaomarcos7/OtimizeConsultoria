@@ -12,7 +12,7 @@ $(document).ready(function () {
         // val() method is used to get the values from 
        // textarea and stored in txt variable
         var txt = $("#comment").val('');
-        alert('Obrigado por seu comentário!');
+        alert('Obrigado por seu comentário!')
     });
 });
 

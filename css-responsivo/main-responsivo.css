@@ -110,3 +110,10 @@
   }
 }
 
+@media screen and (max-width:360px){
+
+    .footer-container .botao{
+    margin:3px;
+    }
+
+  }
