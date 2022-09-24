@@ -90,7 +90,7 @@ aside section button{
     border-radius: 10%;
 }
 
-aside section button:hover{
+aside section button:hover,aside section button:focus{
     color:black;
     background-color:#4169E1;
 }
